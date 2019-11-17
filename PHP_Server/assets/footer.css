@@ -1,0 +1,34 @@
+footer {
+    margin-top: -16px;
+}
+
+#footercontacts{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+#footercontacts a:hover{
+    text-decoration: none;
+}
+  #copyright{
+    margin-top: 1rem;
+  }
+  
+  .fa-facebook{
+      color:#3b5998;
+  }
+  .fa-twitter{
+      color:#00aced;
+  }
+  .fa-instagram{
+      color:#517fa8;
+  }
+  .fa-youtube{
+      color:#bb0000;
+  }
+  
+  .fa-facebook:hover,
+  .fa-twitter:hover,
+  .fa-instagram:hover,
+  .fa-youtube:hover {
+      color:#d5d5d5;
+  }

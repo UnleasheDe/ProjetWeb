@@ -1,0 +1,159 @@
+/*body {
+    font-family: sans-serif;
+}
+
+header img {
+    width: 100%;
+}
+
+.myHeader {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color: #ebebeb;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#logoCesi {
+    width: 20%;
+    height: auto;
+}
+
+#headerTitle a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#connection {
+    color: #6495ED;
+    font-size: 2vw;
+}
+
+.mySidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    background-color: #929292;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 11%;
+    padding-bottom: 50%;
+    line-height: 350%;
+}
+
+.mySidebar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    font-size: 1.2vw;
+    clear:both;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    color: #6495ED;
+    clear:both;
+}
+
+#pdc a {
+    color: #6495ED;
+}
+
+#mentionslegales a {
+    color: #6495ED;
+}
+
+.titreContact{
+    font-family:sans-serif;
+}
+
+.titreRS{
+    font-family: sans-serif;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 4rem;
+}
+
+.fa-facebook-square{
+    color:#3b5998;
+}
+.fa-twitter-square{
+    color:#00aced;
+}
+.fa-instagram{
+    color:#517fa8;
+}
+.fa-youtube{
+    color:#bb0000;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color:#d5d5d5;
+}
+
+.pagecontact {
+    text-align: center;
+    margin-top:10%;
+    margin-right:10%;
+    float:right;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #6684BD;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
